@@ -1,0 +1,347 @@
+{
+  "id": "74600b83-8c49-4659-b066-56b30b40b9f9",
+  "version": "1.1",
+  "name": "Selenium Project - TS 2",
+  "url": "http://campussegurohomolog.imd.ufrn.br/SIGOc-SINFO-Dashboard-Orion/",
+  "tests": [{
+    "id": "732a51a2-0317-4926-98b6-5fb6ff98708d",
+    "name": "Cadastro de ocorrencias",
+    "commands": [{
+      "id": "e0325950-fa8e-4a55-967a-23b346d60ad0",
+      "comment": "",
+      "command": "open",
+      "target": "http://campussegurohomolog.imd.ufrn.br/SIGOc-SINFO-Dashboard-Orion/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "537d3245-d05f-4508-9aee-16acedc42fb7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1a81701-4cd4-4c53-a39e-b1e88030636c",
+      "comment": "",
+      "command": "click",
+      "target": "id=descricao_ocorrencia",
+      "targets": [
+        ["id=descricao_ocorrencia", "id"],
+        ["name=descricao_ocorrencia", "name"],
+        ["css=#descricao_ocorrencia", "css"],
+        ["css=#descricao_ocorrencia", "css:finder"],
+        ["xpath=//input[@id='descricao_ocorrencia']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-ocorrencia-modal']/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d6fed2b-2f8a-49de-9014-e4a3622689d9",
+      "comment": "",
+      "command": "type",
+      "target": "id=descricao_ocorrencia",
+      "targets": [
+        ["id=descricao_ocorrencia", "id"],
+        ["name=descricao_ocorrencia", "name"],
+        ["css=#descricao_ocorrencia", "css"],
+        ["css=#descricao_ocorrencia", "css:finder"],
+        ["xpath=//input[@id='descricao_ocorrencia']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-ocorrencia-modal']/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Roubo de celular"
+    }, {
+      "id": "6a6fec5c-813c-42ed-a93f-8f28276ed362",
+      "comment": "",
+      "command": "click",
+      "target": "css=#locOcorrenciaContainer .gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=#locOcorrenciaContainer .gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='locOcorrenciaContainer']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "402a5ec2-1654-4d16-9ba6-e26dcbfda17c",
+      "comment": "",
+      "command": "click",
+      "target": "id=meio_de_fuga",
+      "targets": [
+        ["id=meio_de_fuga", "id"],
+        ["name=meio_de_fuga", "name"],
+        ["css=#meio_de_fuga", "css"],
+        ["css=#meio_de_fuga", "css:finder"],
+        ["xpath=//input[@id='meio_de_fuga']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-ocorrencia-modal']/div/div/div[2]/div[6]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f8e0157-c696-453b-a996-74c070eb61f4",
+      "comment": "",
+      "command": "type",
+      "target": "id=meio_de_fuga",
+      "targets": [
+        ["id=meio_de_fuga", "id"],
+        ["name=meio_de_fuga", "name"],
+        ["css=#meio_de_fuga", "css"],
+        ["css=#meio_de_fuga", "css:finder"],
+        ["xpath=//input[@id='meio_de_fuga']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-ocorrencia-modal']/div/div/div[2]/div[6]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/input", "xpath:position"]
+      ],
+      "value": "moto"
+    }, {
+      "id": "4d9c4d2e-7f48-47e4-bf5e-919017df3d73",
+      "comment": "",
+      "command": "click",
+      "target": "id=numero_ameacantes",
+      "targets": [
+        ["id=numero_ameacantes", "id"],
+        ["name=numero_ameacantes", "name"],
+        ["css=#numero_ameacantes", "css"],
+        ["css=#numero_ameacantes", "css:finder"],
+        ["xpath=//input[@id='numero_ameacantes']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-ocorrencia-modal']/div/div/div[2]/div[7]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89803c0e-4296-4e38-84e5-6074ab0fb99f",
+      "comment": "",
+      "command": "type",
+      "target": "id=numero_ameacantes",
+      "targets": [
+        ["id=numero_ameacantes", "id"],
+        ["name=numero_ameacantes", "name"],
+        ["css=#numero_ameacantes", "css"],
+        ["css=#numero_ameacantes", "css:finder"],
+        ["xpath=//input[@id='numero_ameacantes']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-ocorrencia-modal']/div/div/div[2]/div[7]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "eab6e01a-5ebd-4d99-b5f0-3fad7b91a415",
+      "comment": "",
+      "command": "click",
+      "target": "id=pontos_referencias",
+      "targets": [
+        ["id=pontos_referencias", "id"],
+        ["name=pontos_referencias", "name"],
+        ["css=#pontos_referencias", "css"],
+        ["css=#pontos_referencias", "css:finder"],
+        ["xpath=//input[@id='pontos_referencias']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-ocorrencia-modal']/div/div/div[2]/div[8]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fb55e70-56f7-4397-b752-8104d3b4cf48",
+      "comment": "",
+      "command": "type",
+      "target": "id=pontos_referencias",
+      "targets": [
+        ["id=pontos_referencias", "id"],
+        ["name=pontos_referencias", "name"],
+        ["css=#pontos_referencias", "css"],
+        ["css=#pontos_referencias", "css:finder"],
+        ["xpath=//input[@id='pontos_referencias']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-ocorrencia-modal']/div/div/div[2]/div[8]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/input", "xpath:position"]
+      ],
+      "value": "CB"
+    }, {
+      "id": "5f350799-d700-462f-9385-f4ae927b1f75",
+      "comment": "",
+      "command": "click",
+      "target": "id=suspeito_1_fisionomia",
+      "targets": [
+        ["id=suspeito_1_fisionomia", "id"],
+        ["name=suspeito_1_fisionomia", "name"],
+        ["css=#suspeito_1_fisionomia", "css"],
+        ["css=#suspeito_1_fisionomia", "css:finder"],
+        ["xpath=//input[@id='suspeito_1_fisionomia']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-ocorrencia-modal']/div/div/div[2]/div[11]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29d26385-5764-462d-a7e7-3c68b2afdaaa",
+      "comment": "",
+      "command": "type",
+      "target": "id=suspeito_1_fisionomia",
+      "targets": [
+        ["id=suspeito_1_fisionomia", "id"],
+        ["name=suspeito_1_fisionomia", "name"],
+        ["css=#suspeito_1_fisionomia", "css"],
+        ["css=#suspeito_1_fisionomia", "css:finder"],
+        ["xpath=//input[@id='suspeito_1_fisionomia']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-ocorrencia-modal']/div/div/div[2]/div[11]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/input", "xpath:position"]
+      ],
+      "value": "branco"
+    }, {
+      "id": "b960d977-5350-4c08-84fb-152c77ad3084",
+      "comment": "",
+      "command": "click",
+      "target": "id=suspeito_1_roupas",
+      "targets": [
+        ["id=suspeito_1_roupas", "id"],
+        ["name=suspeito_1_roupas", "name"],
+        ["css=#suspeito_1_roupas", "css"],
+        ["css=#suspeito_1_roupas", "css:finder"],
+        ["xpath=//input[@id='suspeito_1_roupas']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-ocorrencia-modal']/div/div/div[2]/div[13]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d75cd6b0-4b48-481f-97f2-18b6143ce205",
+      "comment": "",
+      "command": "type",
+      "target": "id=suspeito_1_roupas",
+      "targets": [
+        ["id=suspeito_1_roupas", "id"],
+        ["name=suspeito_1_roupas", "name"],
+        ["css=#suspeito_1_roupas", "css"],
+        ["css=#suspeito_1_roupas", "css:finder"],
+        ["xpath=//input[@id='suspeito_1_roupas']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-ocorrencia-modal']/div/div/div[2]/div[13]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/input", "xpath:position"]
+      ],
+      "value": "camisa azul"
+    }, {
+      "id": "8ef5c1df-1d40-4392-9129-c45e55be6a3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.modal-footer > button.btn.btn-success",
+      "targets": [
+        ["css=div.modal-footer > button.btn.btn-success", "css"],
+        ["css=.modal-footer > .btn-success", "css:finder"],
+        ["xpath=//button[@onclick='cadastrarNovaOcorrencia()']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-ocorrencia-modal']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dda0b24f-b308-4188-b1fe-08876fb917cf",
+    "name": "Finalizar Ocorrencias",
+    "commands": [{
+      "id": "f7ae11dd-7630-43e3-bdaa-f877b5082a12",
+      "comment": "",
+      "command": "open",
+      "target": "http://campussegurohomolog.imd.ufrn.br/SIGOc-SINFO-Dashboard-Orion/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "460fbbef-4f82-4717-92e1-3bd03d4af477",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c29fb7a-e340-4181-baae-930672f5fd31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ocorrencias-lever-title",
+      "targets": [
+        ["css=.ocorrencias-lever-title", "css:finder"],
+        ["xpath=//div[@id='sidebar-switch']/div/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc7b8ad6-c434-4be9-b7f4-585cf0c9f6f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#html-ocorrencia-18 > span.item-title",
+      "targets": [
+        ["css=#html-ocorrencia-18 > span.item-title", "css"],
+        ["css=#html-ocorrencia-18 > .item-title", "css:finder"],
+        ["xpath=//li[@id='html-ocorrencia-18']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "936db684-7e0c-424e-ba95-cd00a075480e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#html-ocorrencia-18 .btn-success",
+      "targets": [
+        ["css=#html-ocorrencia-18 .btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//li[@id='html-ocorrencia-18']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//li/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a6261fea-aedd-4fd1-a60a-dbdbc3053315",
+    "name": "Cancelar Ocorrencias",
+    "commands": [{
+      "id": "a4f7b025-45e9-4185-a2aa-eef51ef14cb6",
+      "comment": "",
+      "command": "open",
+      "target": "http://campussegurohomolog.imd.ufrn.br/SIGOc-SINFO-Dashboard-Orion/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5400bf3-a032-4f80-96b9-61a65a48c34d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3d600cf-9047-4d8f-a46c-3a3038013fcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ocorrencias-lever-title",
+      "targets": [
+        ["css=.ocorrencias-lever-title", "css:finder"],
+        ["xpath=//div[@id='sidebar-switch']/div/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5fcfafd-56dd-491b-8b32-db8ad4d13198",
+      "comment": "",
+      "command": "click",
+      "target": "id=html-ocorrencia-18",
+      "targets": [
+        ["id=html-ocorrencia-18", "id"],
+        ["css=#html-ocorrencia-18", "css"],
+        ["css=#html-ocorrencia-18", "css:finder"],
+        ["xpath=//li[@id='html-ocorrencia-18']", "xpath:attributes"],
+        ["xpath=//ul[@id='ocorrencia-list']/li", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be65844d-0be1-4fb5-8810-73791ac1d6c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#html-ocorrencia-18 .btn-info",
+      "targets": [
+        ["css=#html-ocorrencia-18 .btn-info", "css:finder"],
+        ["xpath=(//button[@type='button'])[13]", "xpath:attributes"],
+        ["xpath=//li[@id='html-ocorrencia-18']/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//li/div[2]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f3a4f211-ca27-4fe8-b403-d3be69998907",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://campussegurohomolog.imd.ufrn.br/", "http://campussegurohomolog.imd.ufrn.br/SIGOc-SINFO-Dashboard-Orion/"],
+  "plugins": []
+}
