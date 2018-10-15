@@ -333,6 +333,96 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "97481bab-8983-4148-b562-ba0f0b78f8b1",
+    "name": "Despachar Vigilantes",
+    "commands": [{
+      "id": "5d63472d-4e25-4258-92bc-a168f98f2d6d",
+      "comment": "",
+      "command": "open",
+      "target": "http://campussegurohomolog.imd.ufrn.br/SIGOc-SINFO-Dashboard-Orion/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abbde788-8b63-40d3-ab9a-a499f28b6a9f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x716",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa1bf493-c66b-485e-9fa9-a9655f9e2da4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Cadastrar Nova Ocorrência",
+      "targets": [
+        ["linkText=Cadastrar Nova Ocorrência", "linkText"],
+        ["css=.nova-ocorrencia-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Cadastrar Nova Ocorrência')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//body/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "588426d9-7684-46a4-924f-3665b4460887",
+      "comment": "",
+      "command": "click",
+      "target": "id=html-ocorrencia-26",
+      "targets": [
+        ["id=html-ocorrencia-26", "id"],
+        ["css=#html-ocorrencia-26", "css"],
+        ["css=#html-ocorrencia-26", "css:finder"],
+        ["xpath=//li[@id='html-ocorrencia-26']", "xpath:attributes"],
+        ["xpath=//ul[@id='ocorrencia-list']/li", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a35d92fd-79e0-4759-b015-0528504d51bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#html-ocorrencia-26 .dispatch-button > .btn",
+      "targets": [
+        ["css=#html-ocorrencia-26 .dispatch-button > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[14]", "xpath:attributes"],
+        ["xpath=//li[@id='html-ocorrencia-26']/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3024ae50-1701-474e-8696-307fc354129d",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=html-vigilante-18",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "780a9ef4-e2b3-4e59-b6d5-c0fc1779ac79",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=vigilante-list",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "375a76f3-bdfb-46d7-97f6-1d810f379ff6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93a951d0-b70b-4fa6-81f6-413ce0c23f42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.exit-dispatch-button > .btn",
+      "targets": [
+        ["css=.exit-dispatch-button > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[27]", "xpath:attributes"],
+        ["xpath=//div[@id='sidebar-switch']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "f3a4f211-ca27-4fe8-b403-d3be69998907",
