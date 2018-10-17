@@ -9,7 +9,7 @@ import pageObjects.AtribuicaoVigilantesPage;
 public class SeleniumDriver {
 	
 	/* Local do driver */
-	private static String driverPath = "../geckodriver";
+	private static String driverPath = "geckodriver/geckodriver";
 	
 	/* url */
 	private static String url = "http://campussegurohomolog.imd.ufrn.br/SIGOc-SINFO-Dashboard-Orion/";
@@ -17,7 +17,7 @@ public class SeleniumDriver {
 	public static void main(String[] args) {
 
 		
-		AtribuicaoVigilantesPage atribuirVigilante = new AtribuicaoVigilantesPage (driverPath);
+		AtribuicaoVigilantesPage atribuirVigilante = new AtribuicaoVigilantesPage ();
 		
 		atribuirVigilante.navegateTo(url);				// direciona para o site
 		atribuirVigilante.abrirJanelaOcorrencias();

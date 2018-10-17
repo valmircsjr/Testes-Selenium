@@ -16,16 +16,8 @@ public class PageObjects {
 	 * 
 	 * @param driver
 	 */
-	public PageObjects(WebDriver driver, String driverPath) {
-		System.setProperty("webdriver.gecko.driver", driverPath);
-		this.driver = driver;
-	}
-	
-	/**
-	 * 
-	 */
-	public PageObjects(String driverPath) {
-		System.setProperty("webdriver.gecko.driver", driverPath);
+	public PageObjects() {
+		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		this.driver = new FirefoxDriver();
 	}
 	

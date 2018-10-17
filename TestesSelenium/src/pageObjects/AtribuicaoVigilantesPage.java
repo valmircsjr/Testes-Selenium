@@ -16,16 +16,8 @@ public class AtribuicaoVigilantesPage extends PageObjects {
 	 * @param driver
 	 * @param driverPath
 	 */
-	public AtribuicaoVigilantesPage(WebDriver driver, String driverPath) {
-		super(driver, driverPath);
-	}
-	
-	/**
-	 * Constructor parametric
-	 * @param driverPath
-	 */
-	public AtribuicaoVigilantesPage(String driverPath) {
-		super(driverPath);
+	public AtribuicaoVigilantesPage() {
+		super();
 	}
 	
 	/**
